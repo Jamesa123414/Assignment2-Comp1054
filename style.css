@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+
+body, html {
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+}
+
+#backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+.video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last number for more or less dimming */
+    z-index: 2; /* Ensure this is above the video but below the content */
+}
+marquee {
+    margin-top: 20px; /* Adjust this value to increase or decrease the space */
+}
+
+.song-title {
+    font-size: 50px; /* Larger size for "Glimpse of Us" */
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.artist-name {
+    font-size:33px; /* Smaller size for "Joji" */
+    color: white;
+}
+
+.lyrics{
+    font-family: Arial, sans-serif;
+    background-color:#8282820a;
+    line-height: 1.6; /* Adjust this value as needed */
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.first_verse{
+    font-family: 'Merriweather', serif;
+}
+
+.second_verse{
+    font-family: 'Roboto', sans-serif;
+}
+
+.third_verse{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.fourth_verse{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fifth_verse{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sixth_verse{
+    font-family: 'Raleway', sans-serif;   
+}
